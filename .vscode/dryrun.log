@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/alessandro/TareaProgramada2'
+mkdir -p bin
+g++ -g -c --std=c++17 src/main.cpp -o bin/main.o
+g++ -g -c --std=c++17 src/tipoEmpleado.cpp -o bin/tipoEmpleado.o
+g++ -g -o bin/TareaProgramada2 bin/main.o
+make: Leaving directory '/home/alessandro/TareaProgramada2'
+ 
