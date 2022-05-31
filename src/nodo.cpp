@@ -46,7 +46,7 @@ int Nodo::ObtenerTipoEmpleado()
 
 void Nodo::AsigneSupervisor(Nodo *supervisor)
 {
-    
+   this->supervisor = supervisor; 
 }
 
 vector<Nodo *> Nodo::ObtenerEmpleados()
